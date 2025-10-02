@@ -254,7 +254,7 @@ export const MessagePage = () => {
                                       }
                                     </div>
                                     {msg?.text && <p className='px-2 pr-3 overflow-x-hidden h-auto'>{msg.text}</p>}
-                                    <p className='text-xs ml-auto  w-fit mb-1 leading-0.5 '>{moment(msg.createdAt).format('hh:mm')}</p>
+                                    <p className='text-xs ml-auto  w-fit mb-1 leading-1 '>{moment(msg.createdAt).format('hh:mm')}</p>
 
                                     
                               </div>
